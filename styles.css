@@ -1,0 +1,73 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #DDD;	
+	color: #444;
+}
+
+a {
+	color: #0ac2a6;
+	text-decoration: none;
+}
+
+a:hover {
+	background: #0ac2a6;
+	color: #FFF;
+	outline: 2px solid #0ac2a6;
+}
+
+#page {
+	margin: 24px auto;
+	max-width: 600px;
+	padding: 24px 48px 48px;
+	border: 1px solid #FFF;
+	background-color: #FFF;
+	width: 100%;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.lines {
+	background: url(grid.png) #FFF 0 0;
+}
+
+h1, h2, h3, h4 {
+	color: #222;	
+}
+
+::-moz-selection {
+	background: #0ac2a6;
+	color: #FFF;
+}
+
+::selection {
+	background: #0ac2a6;
+	color: #FFF;
+}
+
+#toggleLines {
+	font-family: 'Source Sans Pro';
+	font-size: 16px;
+	line-height: 24px;
+	color: #FFF;
+	border-radius: 0 0 8px 0;
+	background: #0ac2a6;
+	padding: 4px 20px;
+	font-weight: bold;
+	cursor: pointer;
+	position: fixed;
+	top: 0;
+	left: 0;
+	border: none;
+}
+
+#toggleLines:hover {
+	opacity: 0.75;
+}
+
+#toggleLines:active {
+	opacity: 0.5;
+}

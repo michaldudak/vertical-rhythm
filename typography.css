@@ -1,0 +1,87 @@
+/* RESET */
+
+ul, li, p, h1, h2, h3, h4 {
+	margin: 0;
+	padding: 0;
+}
+
+/* GENERAL RULES */
+
+body {	
+	font-family: 'Source Sans Pro';
+	font-size: 16px;
+	line-height: 24px;
+}
+
+/* HEADERS */
+
+h1, h2, h3, h4 {
+	color: #222;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 40px;
+	line-height: 48px;
+	padding: 9px 0 15px;
+	margin: 96px 0 24px;
+	letter-spacing: -1.5px;
+}
+
+h2 {
+	font-size: 32px;
+    letter-spacing: -0.5px;
+    line-height: 48px;
+    padding: 12px 0;
+	margin-top: 24px;
+}
+
+h3 {
+	font-size: 24px;
+	padding: 3px 0 21px;
+	margin-top: 24px;
+}
+
+h4 {
+	font-size: 18px;
+	padding: 5px 0 19px;
+	margin-top: 24px;
+}
+
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child {
+	margin-top: 0;
+}
+
+h1 + h2 {
+	margin-top: -24px;
+}
+
+h2 + h3,
+h3 + h4 {
+	margin-top: 0;
+}
+
+/* PARAGRAPHS */
+
+p {
+	padding-bottom: 18px;
+	padding-top: 6px;
+	text-align: justify;
+}
+
+/* LISTS */
+
+ol, ul {
+	padding: 6px 0 18px;
+}
+
+li ol, li ul {
+	padding: 0;
+}
+
+li {
+	margin-left: 2em;
+}
