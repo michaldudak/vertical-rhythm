@@ -8,4 +8,4 @@ The sample is optimized for [Source Sans Pro font](https://github.com/adobe/sour
 
 ##Demo
 
-See http://doodack.github.io/vertical-rhythm/
+See http://michaldudak.github.io/vertical-rhythm/
